@@ -1,3 +1,7 @@
-export default function Result() {
-  return <div>Result</div>;
+type StyleProp = {
+  styles: string;
+};
+
+export default function Result({ styles }: StyleProp) {
+  return <article className={styles}>Hello</article>;
 }
