@@ -7,6 +7,8 @@
   src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
 }
 
-body {
-  font-family: "Hanken Grotestk" serif;
+@layer base {
+  html {
+    font-family: "Hanken Grotesk", serif;
+  }
 }
