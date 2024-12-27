@@ -1,5 +1,4 @@
 import ResultItem from "./ResultItem";
-import data from "./data.json";
 
 type StyleProp = {
   styles: string;
@@ -20,6 +19,24 @@ export default function Summary({ styles }: StyleProp) {
           image={reaction}
           color="primary-light-red"
           score={80}
+        />
+        <ResultItem
+          resultName="Memory"
+          image={memory}
+          color="primary-Orangey-yellow"
+          score={92}
+        />
+        <ResultItem
+          resultName="Verbal"
+          image={verbal}
+          color="primary-Green-teal"
+          score={61}
+        />
+        <ResultItem
+          resultName="Visual"
+          image={visual}
+          color="primary-Green-teal"
+          score={61}
         />
       </ul>
     </article>

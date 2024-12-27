@@ -20,7 +20,7 @@ export default function ReactionItem({
         <p className={`text-${color} ml-2`}>{resultName}</p>
       </div>
       <p className="text-neutral-Dark-gray-blue font-bold">
-        {score}{" "}
+        {score}
         <span className="text-neutral-Dark-gray-blue text-opacity-50">
           / 100
         </span>
