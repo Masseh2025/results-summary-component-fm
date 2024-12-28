@@ -13,7 +13,7 @@ export default function ReactionItem({
 }: ReactionProp) {
   return (
     <li
-      className={`bg-${color} bg-opacity-10 p-4 rounded-xl flex justify-between`}
+      className={`bg-${color} bg-opacity-10 p-4 rounded-xl flex justify-between mb-4`}
     >
       <div className="flex">
         <img src={image} alt="" />
