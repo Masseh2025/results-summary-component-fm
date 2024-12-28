@@ -20,24 +20,6 @@ export default function Summary({ styles }: StyleProp) {
           color="primary-light-red"
           score={80}
         />
-        <ResultItem
-          resultName="Memory"
-          image={memory}
-          color="primary-Orangey-yellow"
-          score={92}
-        />
-        <ResultItem
-          resultName="Verbal"
-          image={verbal}
-          color="primary-Green-teal"
-          score={61}
-        />
-        <ResultItem
-          resultName="Visual"
-          image={visual}
-          color="primary-Green-teal"
-          score={61}
-        />
       </ul>
     </article>
   );
