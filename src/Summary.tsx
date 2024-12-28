@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import ResultItem from "./ResultItem";
 
 type StyleProp = {

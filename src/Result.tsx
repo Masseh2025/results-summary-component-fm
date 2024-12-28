@@ -5,7 +5,7 @@ type StyleProp = {
 export default function Result({ styles }: StyleProp) {
   return (
     <article
-      className={`${styles} text-center bg-gradient-to-b from-Light-slate-blue  to-Light-royal-blue text-neutral-White`}
+      className={`${styles} text-center bg-gradient-to-b from-Light-slate-blue  to-Light-royal-blue text-neutral-White rounded-r-[32px] max-[800px]:rounded-none max-[800px]:rounded-b-[32px]`}
     >
       <h2 className="text-2xl font-bold mb-8 text-neutral-White text-opacity-70">
         Your Result
